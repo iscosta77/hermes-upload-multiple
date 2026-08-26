@@ -26,12 +26,12 @@
         {
             "type": "path",
             "url": "../hermes-validators",
-            "options": {"versions": {"hermes/validators": "1.0.1"}}
+            "options": {"versions": {"iscosta77/validators": "1.0.2"}}
         },
         {
             "type": "path",
             "url": "../hermes-crop-image",
-            "options": {"versions": {"hermes/crop-image": "1.0.0"}}
+            "options": {"versions": {"iscosta77/crop-image": "1.0.1"}}
         }
     ],
     "autoload": {
