@@ -36,6 +36,7 @@ final class UploadMultipleTest extends TestCase
             'pasta' => $this->dir . '/uploads',
             'max_tamanho' => 1024 * 1024,
             'permitidos' => ['txt', 'jpg'],
+            'permitir_local' => true,   // testes simulam upload com arquivos locais
         ]);
     }
 
@@ -163,6 +164,8 @@ final class UploadMultipleTest extends TestCase
 
         $multi = new UploadMultiple($this->db, [
             'pasta' => $this->dir . '/uploads',
+            'permitidos' => ['jpg'],
+            'permitir_local' => true,
             'max_arquivos' => 1,
         ]);
         $multi->salvarVarios($this->filesMultiple($this->fotoFake('a.jpg'), $this->fotoFake('b.jpg')));
