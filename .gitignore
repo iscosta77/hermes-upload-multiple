@@ -1,0 +1,6 @@
+/vendor/
+/composer.lock
+/.hermes.memo
+/exemplo/uploads/
+/exemplo/exemplo.sqlite
+/.idea/
