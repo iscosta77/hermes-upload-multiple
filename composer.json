@@ -1,5 +1,5 @@
 {
-    "name": "hermes/upload-multiple",
+    "name": "iscosta77/upload-multiple",
     "description": "UploadMultiple — multi-upload com drop zone (arrastar e soltar) para PHP sem framework: estende hermes/upload, valida arquivo por arquivo, processa imagens e grava no banco. Drop zone em JS puro, zero dependencias.",
     "type": "library",
     "license": "MIT",
